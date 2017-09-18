@@ -1,0 +1,59 @@
+#aAlbumShowFoto {
+	height: 283px;
+	text-align: center;
+	vertical-align: middle;
+}
+#aAlbumEnviar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: center;
+}
+#aAlbumClick {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: center;
+}
+#aAlbumNomeFoto {
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#aAlbumThumb {
+	padding: 3px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#aAlbumComentStart {
+	text-align: left;
+}
+#aAlbumComentdata, #aAlbumComentalbum, #aAlbumComentlocal, #aAlbumComentevento, #aAlbumComentfotografo {
+	font-weight: bold;
+	margin-top: 3px;
+}
+#aAlbumSelectPage {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+#aAlbumThumbImg {
+	border: 1px solid #0099CC;
+	padding: 1px;
+	margin: 2px;
+}
+
+#aAlbumAvancar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: right;
+}
+#aAlbumVoltar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#aAlbumListPage {
+	text-align: center;
+}
+#aAlbumEmailMyName, #albumMyname, #aAlbumEmailMyEmail, #albumMyemail, #aAlbumEmailFriendName, #albumFriendnome, #aAlbumEmailFriendEmail, #albumFriendemail, #aAlbumEmailButton, #aAlbumEmailImg
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}

@@ -1,0 +1,119 @@
+
+<html>
+<head>
+<title>Enquete</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../css/estilo.css" rel="stylesheet" type="text/css">
+<script type="text/JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_validateForm() { //v4.0
+  var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+  for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
+    if (val) { nm=val.name; if ((val=val.value)!="") {
+      if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+        if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+      } else if (test!='R') { num = parseFloat(val);
+        if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+        if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+          min=test.substring(8,p); max=test.substring(p+1);
+          if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' é orbigatório.\n'; }
+  } if (errors) alert('Alguns erros foram encontrados:\n'+errors);
+  document.MM_returnValue = (errors == '');
+}
+//-->
+</script>
+</head>
+<script language="JavaScript" type="text/javascript" src="../js/form.js"></script>
+<script language="JavaScript" type="text/javascript" src="../js/script.js"></script>
+
+<body>
+
+<table width="98%"  border="0" cellspacing="2" cellpadding="0">
+  <tr>
+    <td class="fundo2">&nbsp;&nbsp;<span class="fonte"><strong>Nova Foto Enquete - Passo 2 / 4 </strong></span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><form action="upload.asp"  method="post" enctype="multipart/form-data" name="formsa">
+      <table width="98%"  border="0" align="center" cellpadding="0" cellspacing="2">
+        <tr>
+          <td class="fonte"><strong>Pergunta</strong></td>
+        </tr>
+        <tr>
+          <td class="fonte">teste</td>
+        </tr>
+        <tr>
+          <td class="fonte">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fonte"><strong>Alternativas</strong><br>
+            Descreva abaixo as alternativas</td>
+        </tr>
+        <tr>
+          <td class="fonte"><table width="95%"  border="0" align="center" cellpadding="0" cellspacing="2">
+		    
+		<tr class="fonte">
+              <td>Alternativa 1 </td>
+              <td colspan="2">Votos</td>
+            </tr>
+            <tr>
+		
+ 				<td width="17%">
+				
+ 				<input name="alt1" class="fonte" id="alt1" size="30" type="file" onChange="previewImg(this,'img1','jpeg,jpg,png,gif,bmp','0,90')" ></td>
+              	<td width="5%"><input name="votos1" type="text" class="fonte" id="votos1"  size="5" value="0">
+								<input type="hidden" name="id_r1" value="33">
+				</td>
+             
+		
+
+              <td width="78%"><div id="img1">&nbsp;</div></td>
+            </tr>
+			  
+		<tr class="fonte">
+              <td>Alternativa 2 </td>
+              <td colspan="2">Votos</td>
+            </tr>
+            <tr>
+		
+ 				<td width="17%">
+				
+ 				<input name="alt2" class="fonte" id="alt2" size="30" type="file" onChange="previewImg(this,'img2','jpeg,jpg,png,gif,bmp','0,90')" ></td>
+              	<td width="5%"><input name="votos2" type="text" class="fonte" id="votos2"  size="5" value="0">
+								<input type="hidden" name="id_r2" value="34">
+				</td>
+             
+		
+
+              <td width="78%"><div id="img2">&nbsp;</div></td>
+            </tr>
+			
+          </table></td>
+        </tr>
+		        <tr>
+          <td ><br><input type="hidden" name="id" value="2">
+            <input name="Submit3" type="button" class="botao" value="&lt; Voltar" onClick="window.open('/bymidia/matrix/enquetefoto/enquete.asp?op=cad1&aspid={3EB13C73-1A05-4496-82B4-BAF34EBF0683}, {3EB13C73-1A05-4496-82B4-BAF34EBF0683}&alt=1&id=2','_self')">
+            <input name="Submits" type="submit" class="botao" id="Submits" value="Avan&ccedil;ar &gt;"></td>
+		        </tr>
+      </table>
+    </form></td>
+  </tr>
+</table>
+
+</body>
+</html>

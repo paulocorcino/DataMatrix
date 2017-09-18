@@ -1,0 +1,103 @@
+.Titulo {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 26px;
+	color: #006666;
+}
+body {
+	background-color: #45D7E2;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+}
+.table_master {
+	background-color: #FFFFFF;
+	border: 1px solid #006666;
+}
+.base {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #20BFCC;
+	color: #000000;
+	text-indent: 10px;
+}
+#cidade {
+	font-size: 10px;
+	font-weight: bold;
+}
+#temMin {
+	font-size: 10px;
+}
+#temMax {
+	font-size: 10px;
+}
+#estado, #comenttmp {
+	font-size: 10px;
+}
+.titulos_sub {
+	background-color: #A2EAF0;
+	letter-spacing: 3px;
+	text-indent: 4px;
+	color: #666666;
+}
+.titulo_areas {
+	font-size: 20px;
+	color: #1DAAB6;
+}
+.texto_1 {
+	font-size: 12px;
+	color: #333333;
+}
+.texto_2 {
+	font-size: 12px;
+}
+
+.table_submaster {
+	border: 1px solid #45D7E2;
+}
+.table_not_dest {
+	background-color: #CAF3F7;
+}
+a:link {
+	text-decoration: none;
+	color: #333333;
+}
+a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+a:active {
+	color: #333333;
+}
+#nComentFundoItem {
+	background-color: #DAF8FA;
+	padding: 3px;
+}
+#NewsAddRem {
+	font-size: 10px;
+}
+#nomemala, #emailmala {
+	font-size: 11px;
+}
+button {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10px;
+}
+input {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+}
+#alt1,#alt2,#alt3,#alt4,#alt5,#alt6 {
+	background-color: #00CCCC;
+}
+#aAlbumComentStart {
+	font-weight: bold;
+	text-align: center;
+}
+#aAlbumThumbImg {
+	padding: 3px;
+	border: 1px solid #45D7E2;
+	margin: 2px;
+}

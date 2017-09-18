@@ -1,0 +1,102 @@
+.titulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+}
+.alternativas {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.botao {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	border: 1px solid #000000;
+}
+.votos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FF9933;
+	text-align: center;
+}
+.cor1 {
+	background-color: #FFCC33;
+	filter: Alpha(Opacity=10, FinishOpacity=100, Style=1, StartX=10,  FinishX=50, StartY=100, FinishY=100);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #000000;
+	text-align: right;
+}
+.cor2 {
+
+	background-color: #6699CC;
+	filter: Alpha(Opacity=10, FinishOpacity=100, Style=1, StartX=10,  FinishX=50, StartY=100, FinishY=100);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #000000;
+	text-align: right;
+}
+.cor3 {
+
+
+	background-color: #FF9B9B;
+	filter: Alpha(Opacity=10, FinishOpacity=100, Style=1, StartX=10,  FinishX=50, StartY=100, FinishY=100);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #000000;
+	text-align: right;
+}
+.cor4 {
+
+
+
+	background-color: #CCCCCC;
+	filter: Alpha(Opacity=10, FinishOpacity=100, Style=1, StartX=10,  FinishX=50, StartY=100, FinishY=100);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #000000;
+	text-align: right;
+}
+.cor5 {
+
+
+
+
+	background-color: #339900;
+	filter: Alpha(Opacity=10, FinishOpacity=100, Style=1, StartX=10,  FinishX=50, StartY=100, FinishY=100);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #000000;
+	text-align: right;
+}
+.cor6 {
+
+
+
+
+
+	background-color: #009999;
+	filter: Alpha(Opacity=10, FinishOpacity=100, Style=1, StartX=10,  FinishX=50, StartY=100, FinishY=100);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #000000;
+	text-align: right;
+}
+.porcentagem {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.borda {
+	border: 1px solid #009999;
+}

@@ -1,0 +1,106 @@
+.fundo1 {
+	background-color: #D6D3CE;
+}
+.fundo2 {
+	background-color: #DEDBD6;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+.fundo3 {
+	background-color: #D6D3CE;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #EAEAEA;
+}
+.planoarea {
+	background-color: #C4BB7B;
+}
+.fonte {
+	font-family: "MS Sans Serif", sans-serif, Arial, Helvetica;
+	font-size: 10px;
+	
+	}
+.formtextarea {
+	font-family: "MS Sans Serif", sans-serif, Arial, Helvetica;
+	font-size: 11px;
+}
+.link {
+	font-family: "MS Sans Serif", sans-serif, Arial, Helvetica;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+
+}
+.linkover {
+	font-family: "MS Sans Serif", sans-serif, Arial, Helvetica;
+	font-size: 10px;
+	color: #000000;
+	background-color: #B5BED6;
+	border: 1px solid #000000;
+	text-decoration: none;
+
+}
+.linksimples {
+
+	font-family: "MS Sans Serif", sans-serif, Arial, Helvetica;
+	font-size: 10px;
+	color: #0000FF;
+	text-decoration: underline;
+}
+.botao {
+	font-family: "MS Sans Serif", sans-serif, Arial, Helvetica;
+	font-size: 9px;
+	color: #000080;
+	background-color: #D2CCC5;
+	border: 1px solid #404040;
+	vertical-align: middle;
+	
+
+
+
+}
+.fundotitulo {
+	background-color: #C6C1B9;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #F9F8F7;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: normal;
+
+
+
+}
+.fonte1 {
+	font-family: "MS Sans Serif", sans-serif, Arial, Helvetica;
+	color: #666666;
+}
+.fonte2 {
+	font-family: "MS Sans Serif", sans-serif, Arial, Helvetica;
+	color: #999999;
+}
+.line_b {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #00CCCC;
+}
+.fundo2XP {
+	background-color: #DEDBD6;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	background-image: url(../img/topoXp_.gif);
+}
+.fundo3XP {
+	background-color: #D6D3CE;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #EAEAEA;
+	background-image: url(../img/fundoXP_baixo.gif);
+}
+.bordasa {
+	border: 1px solid #999999;
+}
+.layerbrd {
+	border: 1px solid #000000;
+}

@@ -1,0 +1,16 @@
+#img_list_ajax {
+	padding: 2px;
+	border: 1px solid #006699;
+}
+#ajax_img_info {
+	font-family: Verdana;
+	font-size: 9px;
+}
+#ajav_img_nome {
+	padding-top: 6px;
+}
+#left
+{
+	float:left;
+	width:33%;
+}
